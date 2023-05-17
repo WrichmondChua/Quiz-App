@@ -34,6 +34,18 @@ button {
   padding: 0.5em 1.8em;
   border-radius: 0.2em;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  border: 2px solid black;
+}
+
+#quit-button {
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 615px;
+  top: 400px;
+  border: 2px solid black;
 }
 
 #restart {
