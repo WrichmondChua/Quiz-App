@@ -164,6 +164,7 @@ NextBtn.addEventListener(
       count = 11;
       clearInterval(countdown);
       TimerDisplay();
+      NextBtn.disabled = true;
     }
   })
 );
@@ -238,6 +239,10 @@ function checker(UserOption) {
     element.disabled = true;
   });
 
+  let answered = Array.from(options).some((option) => option.classList.contains("correct"));
+  if (answered) {
+    NextBtn.disabled = false; // Enable the "Next" button
+  }
 }
 
 function initial() {
