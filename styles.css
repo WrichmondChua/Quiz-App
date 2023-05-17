@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.math-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 500px;
+  top: 200px;
+}
+
+.science-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 710px;
+  top: 200px;
+}
+
+.english-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 490px;
+  top: 300px;
+}
+
+.philippine-history-button {
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 680px;
+  top: 300px;
+}
