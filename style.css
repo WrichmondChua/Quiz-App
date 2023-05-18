@@ -29,7 +29,8 @@ button {
 }
 
 #start-button,
-#restart {
+#restart,
+#quit-button {
   font-size: 1em;
   padding: 0.5em 1.8em;
   border-radius: 0.2em;
@@ -43,6 +44,10 @@ button {
 
 #restart {
   margin-top: 0.9em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(50% + 1.5em); /* Adjust the vertical position as needed */
 }
 
 #quit-button {
@@ -53,7 +58,7 @@ button {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: calc(50% + 1.5em); /* Adjust the vertical position as needed */
+  top: calc(50% + 5em); /* Adjust the vertical position as needed */
   border: 2px solid black;
 }
 
