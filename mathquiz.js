@@ -259,8 +259,10 @@ function initial() {
 StartButton.addEventListener("click", () => {
   StartScreen.classList.add("hide");
   DisplayContainer.classList.remove("hide");
+  document.querySelector(".quiz-title").classList.add("hide"); 
   initial();
 });
+
 
 window.onload = () => {
   StartScreen.classList.remove("hide");
