@@ -17,122 +17,122 @@ let countdown;
 const QuizArray = [
   {
     id: "0",
-    question: "Find the square root of √144",
+    question: "In MySQL, queries are always followed by what character?",
     options: [
-      "11",
-      "12",
-      "13",
-      "14",
+      "Line Break",
+      "Colon",
+      "Semicolon",
+      "Period",
     ],
-    correct: "12",
+    correct: "Semicolon",
   },
 
   {
     id: "1",
-    question: "What is the value of 1/2 if it's converted to decimal?",
+    question: "How can you remove a record using MySQL?",
     options: [
-      "0.1",
-      "0.2",
-      "0.3",
-      "0.5",
+      "DELETE",
+      "DELETE FROM",
+      "REMOVE",
+      "REMOVE FROM",
     ],
-    correct: "0.5",
+    correct: "DELETE FROM",
   },
 
   {
     id: "2",
-    question: "What is the value of pi?",
+    question: "Which MySQL command modifies data records in a table?",
     options: [
-      "3.15",
-      "4.15",
-      "8.10",
-      "3.14",
+      "UPDATE",
+      "MODIFY",
+      "CHANGE",
+      "ALTER",
     ],
-    correct: "3.14",
+    correct: "UPDATE",
   },
 
   {
     id: "3",
-    question: "Find the value of x: x + 2 = 7",
+    question: "How does MySQL differ from SQL?",
     options: [
-      "5",
-      "4",
-      "3",
-      "2",
+      "SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a nonrelational database management system that is used to manage SQL databases.",
+      " SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a relational database management system that is used to manage SQL databases.",
+      "They are not different. MySQL and SQL refer to the same thing.",
+      "My SQL is a language, and SQL is a software application.",
     ],
-    correct: "5",
+    correct: "SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a relational database management system that is used to manage SQL databases.",
   },
 
   {
     id: "4",
-    question: "Which of the following numbers are prime numbers?",
+    question: "If you need to order a table of movies by name, which query will work?",
     options: [
-      "10",
-      "20",
-      "7",
-      "100",
+      "SELECT * FROM movies GROUP BY name",
+      "SELECT * FROM movies ORDER BY name",
+      "SELECT * FROM movies ORDER TABLE by name",
+      "SELECT * FROM movies FILTER BY name",
     ],
-    correct: "7",
+    correct: "SELECT * FROM movies ORDER BY name",
   },
 
   {
     id: "5",
-    question: "Which of the following numbers are composite numbers?",
+    question: "How do you select every row in a given table named “inventory”?",
     options: [
-      "100",
-      "1",
-      "3",
-      "5",
+      "SELECT all FROM inventory;",
+      "FROM inventory SELECT all;",
+      "FROM inventory SELECT *;",
+      "SELECT * FROM inventory;",
     ],
-    correct: "100",
+    correct: "SELECT * FROM inventory;",
   },
 
   {
     id: "6",
-    question: "How many sides does the Hexagon have?",
+    question: "How would you retrieve data on all the customers where no phone number is stored?",
     options: [
-      "4",
-      "5",
-      "6",
-      "7",
+      "SELECT * FROM customers WHERE PhoneNumber = NULL;",
+      "SELECT * FROM customers WHERE PhoneNumber IS NOT VALID;",
+      "SELECT * FROM customers WHERE PhoneNumber IS NULL;",
+      "SELECT * FROM customers WHERE PhoneNumber IS UNKNOWN;",
     ],
-    correct: "6",
+    correct: "SELECT * FROM customers WHERE PhoneNumber IS NULL;",
   },
 
   {
     id: "7",
-    question: "How many sides does the Hexagon have?",
+    question: "What function finds the current time or date in MySQL?",
     options: [
-      "4",
-      "5",
-      "6",
-      "7",
+      "DATE()",
+      "GETDATE()",
+      "CURDATE()",
+      "CURRENT()",
     ],
-    correct: "6",
+    correct: "CURDATE()",
   },
 
   {
     id: "8",
-    question: "What are the three measures of central tendency in statistics?",
+    question: "Which statement would you not use to filter data?",
     options: [
-      "Mean, Median, Mode",
-      "Main, Middle, Made",
-      "Max, Min, Ceiling",
-      "Floor, Ceiling, Round",
+      "GROUP_BY",
+      "MATCH",
+      "WHERE",
+      "LIKE",
     ],
-    correct: "Mean, Median, Mode",
+    correct: "MATCH",
   },
 
   {
     id: "9",
-    question: "The Cartesian plane, also known as the Cartesian coordinate system, was developed by _______",
+    question: "What is the best type of query for validating the format of an email address in a MySQL table?",
     options: [
-      "Archimedes",
-      "Euclid",
-      "Pythagoras",
-      "Rene Descartes",
+      "a SQL query using partitions",
+      "a SQL query using IS NULL",
+      "a SQL query using a regular expression",
+      "a SQL query using LTRIM Or RTRIM",
     ],
-    correct: "Rene Descartes",
+    correct: "a SQL query using a regular expression",
   },
 
 
@@ -259,7 +259,7 @@ function initial() {
 StartButton.addEventListener("click", () => {
   StartScreen.classList.add("hide");
   DisplayContainer.classList.remove("hide");
-  document.querySelector(".quiz-title").classList.add("hide"); 
+  document.querySelector(".quiz-title").classList.add("hide");
   initial();
 });
 
