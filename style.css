@@ -162,6 +162,10 @@ h1 {
   margin-top: 200px;
 }
 
+.quiz-title.hide {
+  display: none;
+}
+
 /* Media Queries for Larger Screens */
 @media (min-width: 601px) {
   #start-button,
@@ -170,8 +174,10 @@ h1 {
     font-size: 1.33em;
     padding: 0.5em 1.8em;
   }
-}
 
-.hide {
-  display: none;
+  .quiz-title {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+  }
 }
