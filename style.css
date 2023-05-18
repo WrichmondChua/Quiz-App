@@ -29,12 +29,8 @@ button {
 }
 
 #start-button,
-
 #restart,
 #quit-button {
-
-#restart {
-  
   font-size: 1em;
   padding: 0.5em 1.8em;
   border-radius: 0.2em;
@@ -43,12 +39,19 @@ button {
 }
 
 #start-button {
-  margin-bottom: 0.9em;
+  font-size: 1em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: calc(50% + 1.5em); /* Adjust the vertical position as needed */
+  border: 2px solid black;
 }
 
 #restart {
   margin-top: 0.9em;
-
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -63,8 +66,7 @@ button {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: calc(50% + 5em); /* Adjust the vertical position as needed */
-  top: calc(50% + 1.5em); /* Adjust the vertical position as needed */
+  top: calc(50% + 4.9em); /* Adjust the vertical position as needed */
   border: 2px solid black;
 }
 
@@ -168,4 +170,8 @@ h1 {
     font-size: 1.33em;
     padding: 0.5em 1.8em;
   }
+}
+
+.hide {
+  display: none;
 }
