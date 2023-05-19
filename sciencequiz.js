@@ -154,7 +154,7 @@ NextBtn.addEventListener(
     if (QuestionCount == QuizArray.length) {
       DisplayContainer.classList.add("hide");
       ScoreContainer.classList.remove("hide");
-      UserScore.innerHTML = "<span style='color: black'> Your score is " + ScoreCount + " out of " + QuestionCount + ".</span>";
+      UserScore.innerHTML = "<span style='color: white'> Your score is " + ScoreCount + " out of " + QuestionCount + ".</span>";
 
     } else {
       CountOfQuestion.innerHTML =

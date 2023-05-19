@@ -5,9 +5,49 @@
   font-family: sans-serif;
 }
 
-body {
+.math-body {
+  background-image: url("mgr.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 100vh;
-  background-color: skyblue;
+  overflow: hidden;
+}
+
+.science-body {
+  background-image: url("re5.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.english-body {
+  background-image: url("initial-d-toyota.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.history-body {
+  background-image: url("bonfire.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sql-body {
+  background-image: url("sql.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .start-screen,
@@ -155,7 +195,7 @@ button {
 
 .correct {
   background-color: #ffdde0;
-  border: solid green
+  border: solid green;
 }
 
 h1 {
