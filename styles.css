@@ -1,11 +1,16 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: Rubik;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik&display=swap);
 }
 
 body {
-  background-image: url('ff7ac.gif');
+  background-image: url("ff7ac.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -29,15 +34,80 @@ h4 {
 }
 
 .math-button,
-.science-button,
-.english-button,
-.philippine-history-button,
 .all-about-mysql-button {
   color: black;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  background-color: white;
+  background-color: lightcoral;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.science-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: skyblue;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.english-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: lightslategray;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.philippine-history-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: lightsalmon;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.all-about-mysql-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: lightgreen;
   border: solid black;
   outline: none;
   font-size: 1.33em;
