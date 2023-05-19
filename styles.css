@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('ff7ac.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h4 {
+  text-align: right;
+  margin-top: 430px;
+}
+
+.math-button,
+.science-button,
+.english-button,
+.philippine-history-button,
+.all-about-mysql-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid black;
+  outline: none;
+  font-size: 1.33em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.math-button {
+  top: 200px;
+}
+
+.science-button {
+  top: 280px;
+}
+
+.english-button {
+  top: 360px;
+}
+
+.philippine-history-button {
+  top: 450px;
+}
+
+.all-about-mysql-button {
+  top: 540px;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .math-button,
+  .science-button,
+  .english-button,
+  .philippine-history-button,
+  .all-about-mysql-button {
+    font-size: 1em;
+    padding: 0.3em 1.2em;
+  }
+
+  .math-button {
+    top: 150px;
+  }
+
+  .science-button {
+    top: 200px;
+  }
+
+  .english-button {
+    top: 250px;
+  }
+
+  .philippine-history-button {
+    top: 300px;
+  }
+
+  .all-about-mysql-button {
+    top: 350px;
+  }
+}
