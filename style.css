@@ -48,6 +48,7 @@ button {
   transform: translate(-50%, -50%);
   top: calc(50% + 1.5em); /* Adjust the vertical position as needed */
   border: 2px solid black;
+  background-color: lightseagreen;
 }
 
 #restart {
@@ -55,7 +56,8 @@ button {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: calc(50% + 1.5em); /* Adjust the vertical position as needed */
+  top: calc(50% + 1.5em);
+  background-color: lightsteelblue; /* Adjust the vertical position as needed */
 }
 
 #quit-button {
@@ -68,6 +70,7 @@ button {
   transform: translateX(-50%);
   top: calc(50% + 4.9em); /* Adjust the vertical position as needed */
   border: 2px solid black;
+  background-color: lightgray;
 }
 
 #display-container {
@@ -142,8 +145,7 @@ button {
 
 .incorrect {
   background-color: #ffdde0;
-  color: #d32f2f;
-  border-color: #d32f2f;
+  border: solid red;
 }
 
 #user-score {
@@ -153,8 +155,7 @@ button {
 
 .correct {
   background-color: #ffdde0;
-  color: #689f38;
-  border-color: #689f38;
+  border: solid green
 }
 
 h1 {
